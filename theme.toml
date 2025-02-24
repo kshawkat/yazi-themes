@@ -1,0 +1,19 @@
+# Aurora Theme for Yazi
+#
+# Dark mode:  Aurora Storm (deep twilight with aurora-inspired accents)
+# Light mode: Aurora Dawn  (warm golden morning with nature-inspired accents)
+#
+# Installation:
+#   1. Copy aurora-storm.yazi/, aurora-storm-arrows.yazi/, aurora-dawn.yazi/, 
+#      and aurora-dawn-arrow.yazi/ to ~/.config/yazi/flavors/
+#   2. Copy the following theme.toml to ~/.config/yazi/theme.toml
+#
+# Yazi automatically switches between dark and light based on the terminal' config
+# reported color scheme (if supported), or can be set manually.
+
+[flavor]
+use = "aurora-storm-arrows"
+# For Yazi 0.4 and above
+# switch between light and dark automatically based on terminal settings
+dark = "aurora-storm-arrows"
+light = "aurora-dawn-arrows"
