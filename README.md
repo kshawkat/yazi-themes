@@ -37,15 +37,16 @@
 
 ### Manual install
 
+#### Linux/macOS
+
 ```bash
-# Linux/macOS
 git clone https://github.com/kshakwat/yazi-themes.git 
 cd yazi-themes
 cp -r ./{aurora-dawn.yazi,aurora-storm.yazi,aurora-dawn-arrows.yazi,aurora-storm-arrows.yazi} ~/.config/yazi/flavors/
 ```
-# Windows (use one of the following methods)
+#### Windows (use one of the following methods)
 
-*(Execute the command in the CMD window)*
+*Execute the command in the Windows Command Terminal (CMD)*
 
 ```CMD
 git clone https://github.com/kshakwat/yazi-themes.git 
@@ -53,7 +54,7 @@ cd yazi-themes
 for %i in (aurora-dawn.yazi aurora-storm.yazi aurora-dawn-arrows.yazi aurora-storm-arrows.yazi) do xcopy "%i" "%AppData%\yazi\config\flavors\%i\" /E /I /H /C
 ```
 
-*(Execute the command in the PoweShell terminal)*
+*Execute the command in the PoweShell Terminal*
 
 ```powershell
 git clone https://github.com/kshakwat/yazi-themes.git 
