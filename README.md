@@ -12,6 +12,7 @@
 | Aurora Dawn (Light) | Aurora Storm (Dark) |
 |---------------------|---------------------|
 | <img src="https://raw.githubusercontent.com/kshawkat/yazi-themes/refs/heads/main/aurora-dawn.yazi/preview.png" width="350" /> | <img src="https://raw.githubusercontent.com/kshawkat/yazi-themes/refs/heads/main/aurora-storm.yazi/preview.png" width="350" /> |
+| Aurora Dawn Arrows (Light) | Aurora Storm Arrows (Dark) |
 | <img src="https://raw.githubusercontent.com/kshawkat/yazi-themes/refs/heads/main/aurora-dawn-arrows.yazi/preview.png" width="350" /> | <img src="https://raw.githubusercontent.com/kshawkat/yazi-themes/refs/heads/main/aurora-storm-arrows.yazi/preview.png" width="350" /> |
 
 
