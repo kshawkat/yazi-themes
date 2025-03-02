@@ -40,7 +40,7 @@
 ```bash
 # Linux/macOS
 git clone https://github.com/kshakwat/yazi-themes.git 
-cd yazi-themes.git
+cd yazi-themes
 cp -r ./{aurora-dawn.yazi,aurora-storm.yazi,aurora-dawn-arrows.yazi,aurora-storm-arrows.yazi} ~/.config/yazi/flavors/
 ```
 # Windows (use one of the following methods)
@@ -49,13 +49,15 @@ cp -r ./{aurora-dawn.yazi,aurora-storm.yazi,aurora-dawn-arrows.yazi,aurora-storm
 
 ```CMD
 git clone https://github.com/kshakwat/yazi-themes.git 
-cd yazi-themes.git
+cd yazi-themes
 for %i in (aurora-dawn.yazi aurora-storm.yazi aurora-dawn-arrows.yazi aurora-storm-arrows.yazi) do xcopy "%i" "%AppData%\yazi\config\flavors\%i\" /E /I /H /C
 ```
 
 *(Execute the command in the PoweShell terminal)*
 
 ```powershell
+git clone https://github.com/kshakwat/yazi-themes.git 
+cd yazi-themes
 Copy-Item -Path "aurora-dawn.yazi", "aurora-storm.yazi", "aurora-dawn-arrows.yazi", "aurora-storm-arrows.yazi" -Destination "$env:AppData\yazi\config\flavors\" -Recurse -Force
 ```
 
